@@ -134,4 +134,4 @@ app.factory('ProductsService', function ($http) {
         return $http.get('api/Product/GetAllProducts');
     }
     return fac;
-});
+}); 
